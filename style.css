@@ -1,0 +1,129 @@
+    @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+    /* font-family: 'Sigmar', cursive; */
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+    /* font-family: 'Roboto', sans-serif; */
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-family: 'Sigmar', cursive;
+        font-size: 80px;
+        font-weight: lighter;
+        margin-bottom: 15px;
+        word-spacing: -3px;
+        color:#011339;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: #000;
+        text-shadow: black 1px 7px 1px ;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+        background-color: #e2d6f2;
+        padding-top: 50px;
+    }
+
+    footer {
+        height: 100px;
+    }
+
+
+    img {
+        width: 30px;
+    }
+
+    button {
+        width: 50px;
+        height: 40px;
+        border-radius: 4px;
+        /* border: none; */
+        background-color: #906090;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all ease 0.3s;
+    }
+
+    .checkBtn:hover {
+        background-color: #a0e8b7;
+    }
+
+    .removeBtn:hover {
+        background-color: rgb(177, 76, 76);
+    }
+
+    .newItemBtn:hover {
+        background-color: #bb7dbb
+    }
+
+    #checked {
+        background-color: #a0e8b7;
+        color: black;
+    }
+
+    input::placeholder {
+        font-family: 'Roboto', sans-serif;
+        padding: 5px;
+        font-size: 17px;
+        color: rgb(174, 171, 171);
+
+    }
+
+    input {
+        padding: 10px;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        height: 40px;
+        border-radius: 4px;
+    }
+
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        padding: 5px;
+        background-color: #604878;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        transition: all ease 0.2s;
+    }
+
+    .addItem {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 6px;
+    }
+
+    .newItemInput {
+        height: 40px;
+        width: 350px;
+    }
+
+    .itemsList {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .itemDiv {
+        display: flex;
+        gap: 3px;
+    }
+
+    .item {
+        color: white;
+        width: 298px;
+        border-radius: 2px;
+        border: 2px black solid;
+    }
